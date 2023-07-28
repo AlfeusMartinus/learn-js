@@ -54,10 +54,20 @@ months.sort();
 console.log(months);
 
 const array1 = [1, 30, 4, 1000];
-const compareNumber = (a,b) => {
-  return a-b;
+const compareNumber = (a, b) => {
+  return a - b;
 };
 const sorting = array1.sort(compareNumber);
 console.log(sorting);
 
 // Array Every
+const scores = [1, 2, 30];
+const minimumScore = 65;
+
+const examPassed = scores.every((score) => (score) => minimumScore);
+console.log(examPassed);
+
+// Array ForEach
+newArray.forEach((name) => {
+  console.log(`hello, ${name}`);
+});
